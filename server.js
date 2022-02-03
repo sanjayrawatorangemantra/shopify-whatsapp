@@ -19,7 +19,7 @@ var rt = router();
 
 app.prepare().then(() => {
 
-  // mw_shopify(server);
+  mw_shopify(server);
   
     // routes
     rt.get('/sdf',getMessage);
